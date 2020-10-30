@@ -23,28 +23,28 @@ const App = () => {
           </div>
           <nav>
             <a href="#t" onClick={() => setCardOpen(true)}>
-              About
+              about
             </a>
             <a
               href="https://github.com/ValentinMitran"
               target="_blank"
               rel="noreferrer"
             >
-              Projects
+              projects
             </a>
             <a
               href="https://www.linkedin.com/in/valentinmitran/"
               target="_blank"
               rel="noreferrer"
             >
-              LinkedIn
+              linkedin
             </a>
             <a
               href="https://drive.google.com/file/d/1l2goOiwEfxxYM_nYIun6IObv7UdIgdh8/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
-              Resume
+              resume
             </a>
           </nav>
         </div>
@@ -73,7 +73,7 @@ const App = () => {
             <p>
               Oh, yeah, and if you haven't figured it out yet... <br />
               <span id="cyberpunk-p">
-                <br />I LOVE THE <span id="cyberpunk"> CYBERPUNK</span> GENRE
+                <br />i love the <span id="cyberpunk"> cyberpunk</span> genre
               </span>
             </p>
           </div>

@@ -7,6 +7,11 @@
   font-family: abecedary;
   src: url(abecedary.ttf);
 }
+
+@font-face {
+  font-family: blade;
+  src: url(BLADRMF.ttf);
+}
 .app {
   width: 100vw;
   min-height: 100vh;
@@ -46,7 +51,7 @@
 
       a {
         font-size: 2rem;
-        font-family: cyberpunk;
+        font-family: blade;
         color: white;
         text-decoration: none;
         margin-bottom: 15px;
@@ -61,10 +66,11 @@
       flex-direction: column;
       align-items: center;
       h1 {
-        font-family: cyberpunk;
+        font-family: blade;
+        letter-spacing: 0.5rem;
       }
       #cyberpunk-p {
-        font-family: cyberpunk;
+        font-family: blade;
         font-size: 1.1rem;
       }
       p {
