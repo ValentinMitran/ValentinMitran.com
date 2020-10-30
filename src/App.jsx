@@ -79,7 +79,7 @@ const App = () => {
           </div>
         </div>
         <div className="music-player">
-          <span>Music title</span>
+          <span>Hyper - Spoiler</span>
           {musicPlay ? (
             <MdPause
               onClick={() => {
