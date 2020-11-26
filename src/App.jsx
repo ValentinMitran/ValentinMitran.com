@@ -40,7 +40,7 @@ const App = () => {
               linkedin
             </a>
             <a
-              href="https://drive.google.com/file/d/1e-2Hwd577yNi1mI7NzPp04qReq2K2RBW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1BC63TwSXivTFdvMOA_C5QK_O6dwYr3Jy/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
