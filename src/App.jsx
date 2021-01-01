@@ -59,7 +59,7 @@ const App = () => {
               linkedin
             </a>
             <a
-              href="https://drive.google.com/file/d/1e-2Hwd577yNi1mI7NzPp04qReq2K2RBW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1xza7rfhKXHA_FUIXgKH8400hF_UkfmzY/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               class="glitch"
