@@ -1,13 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="ValentinMitran.com">.::         .::.::       .::
- .::       .:: .: .::   .:::
-  .::     .::  .:: .:: . .::
-   .::   .::   .::  .::  .::
-    .:: .::    .::   .:  .::
-     .::::     .::       .::
-      .::      .::       .::
-                            </a>
+  <a href="ValentinMitran.com"><img src="https://raw.githubusercontent.com/valentinmitran/valentinmitran.com/master/VM.png" alt="VM" width="200"></a>
   <br>
   Portfolio
   <br>
