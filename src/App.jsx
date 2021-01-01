@@ -9,7 +9,7 @@ import Projects from "./components/projects/Projects";
 const App = () => {
   const [musicPlay, setMusicPlay] = useState(false);
   const [cardOpen, setCardOpen] = useState(false);
-  const [openProjects, setOpenProjects] = useState(true);
+  const [openProjects, setOpenProjects] = useState(false);
 
   return (
     <>
