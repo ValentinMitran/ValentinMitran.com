@@ -4,10 +4,12 @@ import React, { useState } from "react";
 import logo from "./logo.png";
 import audiosrc from "./Spoiler.mp3";
 import ReactPlayer from "react-player";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   const [musicPlay, setMusicPlay] = useState(false);
   const [cardOpen, setCardOpen] = useState(false);
+  const [openProjects, setOpenProjects] = useState(true);
 
   return (
     <>
@@ -22,20 +24,37 @@ const App = () => {
             <img id="logo" src={logo} alt="" />
           </div>
           <nav>
-            <a href="#t" onClick={() => setCardOpen(true)}>
+            <a
+              href="#t"
+              class="glitch"
+              data-text="
+        about"
+              onClick={() => setCardOpen(true)}
+            >
               about
             </a>
             <a
-              href="https://github.com/ValentinMitran"
+              href="#projects"
               target="_blank"
               rel="noreferrer"
+              class="glitch"
+              data-text="
+        projects"
+              onClick={(e) => {
+                e.preventDefault();
+                setOpenProjects(true);
+              }}
             >
               projects
             </a>
+
             <a
               href="https://www.linkedin.com/in/valentinmitran/"
               target="_blank"
               rel="noreferrer"
+              class="glitch"
+              data-text="
+        linkedin"
             >
               linkedin
             </a>
@@ -43,6 +62,9 @@ const App = () => {
               href="https://drive.google.com/file/d/1e-2Hwd577yNi1mI7NzPp04qReq2K2RBW/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
+              class="glitch"
+              data-text="
+        resume"
             >
               resume
             </a>
@@ -61,7 +83,13 @@ const App = () => {
                 setCardOpen(false);
               }}
             />
-            <h1>Hello</h1>
+            <h1
+              class="glitch"
+              data-text="
+        Hello"
+            >
+              Hello
+            </h1>
             <p>
               I'm Valentin, a web developer that loves what he does ! <br /> I
               couldn't ask for a better field to be in.
@@ -101,6 +129,11 @@ const App = () => {
             style={{ display: "none" }}
           />
         </div>
+
+        <Projects
+          openProjects={openProjects}
+          setOpenProjects={setOpenProjects}
+        />
       </div>
     </>
   );
